@@ -4,36 +4,21 @@
         <meta charset="utf-8">
         <title>The Green Cathedral</title>
         <style>
-        #background_image {
-            display: inline-block;
-            width: 100%;
-            font-size: 0;
-            line-height: 0;
-            vertical-align: middle;
-            background-size: 100%;
-            background-position: 50% 50%;
+        html {
+            background: url(img/cathedral_01.jpg) center center fixed;
             background-repeat: no-repeat;
-            background-image: url(img/cathedral_01.jpg);
-
-        }
-        #background_inner {
-          display: block;
-          height: 0;
-          padding-top: 63.3%;
+            background-size: cover;
         }
         @media only screen and (max-width: 320px) {
-            #background_image {
+            html {
                 background-image: url(img/cathedral_00.jpg);
             }
         }
         </style>
     </head>
     <body>
-      <div>
-        <span id="background_image">
-          <span id="background_inner">
-          </span>
-        </span>
+      <div id="ackground_image">
+        <p>test</p>
       </div>
     </body>
 </html>
